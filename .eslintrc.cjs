@@ -14,7 +14,6 @@ module.exports = {
       },
     ],
     'no-console': 'error',
-    'no-magic-numbers': ['error', { ignoreArrayIndexes: true }],
     'no-return-await': 'error',
     'max-lines': [
       'warn',

@@ -1,30 +1,64 @@
-# React + TypeScript + Vite
+# TEMPLATE VITE REACT TYPESCRIPT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my basic working template. Basic configuration of styles, test and code control. I hope you find it as useful as I do 😁.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- pnpm - A strict and efficient alternative to npm with up to 3x faster performance
+- TypeScript - A typed superset of JavaScript designed with large scale applications in mind
+- ESLint - Static code analysis to help find problems within a codebase
+- Vite - Feature rich and highly optimized frontend tooling with TypeScript support out of the box
+- React - A modern front-end JavaScript library for building user interfaces based on components
+- Tailwind CSS - A utility-first CSS framework packed with classes to build any web design imaginable
+- React Testing Library - A very light-weight, best practice first, solution for testing React components
+- Vitest - A blazing fast unit test framework powered by Vite
+- Playwright - Enables reliable end-to-end testing for modern web apps
+- Husky and lint-staged - Git hooks and commit linting to ensure use of descriptive and practical commit messages
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+git clone  https://github.com/jovivaspo/my-templete-vite-react.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Changing into the new directory:
+
+```
+cd my-template-vite-react
+```
+
+3. Removing the .git folder:
+
+```
+rm -rf .git
+```
+
+4. Install dependencies:
+
+```
+pnpm install
+```
+
+5. Running the setup script:
+
+```
+pnpm run setup
+```
+
+## Test with Vitest
+
+Run the script:
+
+```
+pnpm run test
+```
+
+## Test E2E with Playwright
+
+Run the script:
+
+```
+pnpm run test:e2e
+```
