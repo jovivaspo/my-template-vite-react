@@ -20,7 +20,7 @@ This is my basic working template. Basic configuration of styles, test and code 
 1. Clone the repository:
 
 ```
-git clone  https://github.com/jovivaspo/my-templete-vite-react.git
+git clone  https://github.com/jovivaspo/my-template-vite-react.git
 ```
 
 2. Changing into the new directory:
